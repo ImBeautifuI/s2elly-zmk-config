@@ -9,5 +9,5 @@ features:
   - keys
   - display
 siblings:
-  - my_keyboard_left
-  - my_keyboard_right
+  - s2elly_left
+  - s2elly_right

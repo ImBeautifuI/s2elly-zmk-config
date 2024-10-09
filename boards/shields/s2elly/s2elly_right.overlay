@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include "my_keyboard.dtsi"
+#include "s2elly.dtsi"
 
 &default_transform {
     col-offset = <17>;
