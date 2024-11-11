@@ -22,3 +22,5 @@ include:
     shield: s2elly_left
   - board: nice_nano_v2
     shield: s2elly_right
+  - board: nice_nano_v2
+    shield: settings_reset
