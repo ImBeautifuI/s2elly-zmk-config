@@ -20,6 +20,7 @@
 include:
   - board: nice_nano_v2
     shield: s2elly_left
+    snippet: zmk-usb-logging
   - board: nice_nano_v2
     shield: s2elly_right
   - board: nice_nano_v2
