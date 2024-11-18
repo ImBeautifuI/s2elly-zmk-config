@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include "s2elly.dtsi"
+#include "s2elly_left.overlay"
 
 &default_transform {
     col-offset = <17>;
