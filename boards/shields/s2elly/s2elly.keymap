@@ -57,8 +57,8 @@
         //│  1  !    │  2  "    │  3  §    │  4  $    │  5  %    │   │  6  &    │  7  /    │  8  (    │  9  )    │  0  =    │
             &kp N1     &kp N2      &kp N3     &kp N4     &kp N5         &kp N6     &kp N7     &kp N8     &kp N9     &kp N0      
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│Arrow_Down│Arrow_Left│ Arrow_Up │Arrow_Right│         │   │          │          │          │          │          │
-            &kp DOWN   &kp LEFT   &kp UP     &kp RIGHT   &trans         &trans     &trans     &trans     &trans     &trans    
+        //│Arrow_Down│Arrow_Left│ Arrow_Up │Arrow_Right│         │   │          │          │          │          │  DEL     │
+            &kp DOWN   &kp LEFT   &kp UP     &kp RIGHT   &trans         &trans     &trans     &trans     &trans     &kp DEL    
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │    ß     │    Ö     │    Ä     │    Ü     │
             &trans     &trans     &trans     &trans     &trans          &trans   &kp MINUS    &kp SEMI   &kp SQT    &kp LBKT   
