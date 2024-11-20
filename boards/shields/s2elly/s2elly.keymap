@@ -63,8 +63,8 @@
         //│          │          │          │          │          │   │          │    ß     │    Ö     │    Ä     │    Ü     │
             &trans     &trans     &trans     &trans     &trans          &trans   &kp MINUS    &kp SEMI   &kp SQT    &kp LBKT   
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-        //                                 │          │          │   │  LSHIFT  │  ENTER   │
-                                             &trans     &trans        &kp LSHIFT &kp ENTER
+        //                                 │          │          │   │  ENTER   │  LSHIFT  │
+                                             &trans     &trans        &kp ENTER   &kp LSHIFT
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
@@ -82,7 +82,7 @@
             &trans     &trans     &trans     &trans     &trans          &trans     &trans     &trans     &trans     &trans   
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
         //                                 │          │          │   │          │          │
-                                             &trans     &trans         &trans     &trans
+                                             &trans     &kp ESC         &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
