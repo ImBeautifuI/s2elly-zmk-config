@@ -16,7 +16,7 @@
         combo_normal {
             timeout-ms = <50>;
             key-positions = <5 9>;
-            bindings = <&to 4>;
+            bindings = <&tog 4>;
         };
     };
 };
@@ -123,10 +123,10 @@
              &kp TAB   &kp N1     &kp N2     &kp N3     &kp N4          &kp Y      &kp U      &kp I      &kp O      &kp P
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
-            &kp LCTRL  &kp A      &kp W      &kp D     &kp R            &kp H      &kp J      &kp K      &kp L      &kp O
+            &kp LCTRL  &kp A      &kp W      &kp D      &kp R           &kp H      &kp J      &kp K      &kp L      &kp O
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
-            &kp LSHIFT &kp Q      &kp X      &kp E     &kp F            &kp N      &kp M      &kp C      &kp X      &kp Z
+            &kp LSHIFT &kp Q      &kp S      &kp E      &kp F           &kp N      &kp M      &kp C      &kp X      &kp Z
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
         //                                 │          │          │   │          │          │
                                             &kp LCTRL   &kp SPACE     &kp ENTER   &kp BSPC
