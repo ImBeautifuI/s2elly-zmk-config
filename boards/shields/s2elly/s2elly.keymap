@@ -10,6 +10,19 @@
 #define HRML(k1,k2,k3,k4) &ht LSHFT k1  &ht LALT k2  &ht LCTRL k3  &ht LGUI k4
 #define HRMR(k1,k2,k3,k4) &ht RGUI k1  &ht RCTRL k2  &ht RALT k3  &ht RSHFT k4
 
+
+/ {
+    combos {
+        compatible = "zmk,combos";
+        combo_normal {
+            timeout-ms = <50>;
+            key-positions = <5 9>;
+            bindings = <&tog 4>;
+        };
+    };
+};
+
+
 / {
     behaviors {
         ht: hold_tap {
@@ -23,17 +36,6 @@
         };
     };
 
-
-/ {
-    combos {
-        compatible = "zmk,combos";
-        combo_normal {
-            timeout-ms = <50>;
-            key-positions = <5 9>;
-            bindings = <&tog 4>;
-        };
-    };
-};
 
     conditional_layers {
         compatible = "zmk,conditional-layers";
